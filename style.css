@@ -1,0 +1,88 @@
+h1 {
+    color: darkorchid;
+    border:solid;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+     
+}
+
+.header{
+    background-color: paleturquoise;
+    border:solid;
+   display:flex;
+  justify-content: center;
+
+}
+
+.dolphin{
+    background-color: lightsalmon;
+    display:flex;
+    justify-content: center;
+    border: solid
+}
+.dolphin{
+    position: relative;
+}
+.dolphin p{
+   
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+
+}
+.dolphin:hover p{
+    opacity:1                                 
+}
+.dolphin:hover img{
+    opacity:0.66;
+}
+    
+.abt{
+    background-color:bisque ;
+    border: solid
+}
+.hi{
+    border: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dol{
+    border:solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dog{
+    background-color: lightpink;
+    display:flex;
+    justify-content: center;
+    border: solid;
+}
+.dog{
+    position: relative;
+}
+.dog p{
+   
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+
+}
+.dog:hover p{
+    opacity:1                                 
+}
+.dog:hover img{
+    opacity:0.66;
+    
+}
